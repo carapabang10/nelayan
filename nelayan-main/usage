@@ -2,5 +2,5 @@ git add .
 git commit -m "Menambahkan file baru"
 git push origin main
 
-position = "crtg" --  eso, crtg 
+position = "eso" --  eso, crtg 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/chx/Chloe-X-main/Main/kall"))()

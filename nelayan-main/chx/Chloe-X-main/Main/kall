@@ -28,15 +28,15 @@ local MODE = "atomic"     -- PILIH: "atomic" atau "retry"
 local base_dir = "/storage/emulated/0/Delta/Workspace/Chloe X"
 
 -- CONFIG PATHS
-local config_url          = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/set/aku"
+local config_url          = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/set/setkall"
 local save_dir            = base_dir .. "/Config"
 local save_file           = save_dir .. "/Chloe__Fish_It_.json"
 
-local back_config_url     = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/set/aku"
+local back_config_url     = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/set/setkall"
 local back_save_file      = save_dir .. "/Chloe_UPD_Fish_It_.json"
 
 -- *** NEW EXTRA CONFIG FILE ***
-local extra_config_url    = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/set/aku"
+local extra_config_url    = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/set/setkall"
 local extra_save_file     = save_dir .. "/Chloe_Fish_It_.json"
 
 -- POSITION HANDLING
@@ -47,11 +47,11 @@ else
     safe_print("[Chloe-X] Position external:", position)
 end
 
-local position_url        = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/loct/" .. position
+local position_url        = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/loct/" .. position
 
 -- BACKUP POSITION RANDOMIZED
 local position_backup_rand = getRandomFrom(random_list)
-local position_backup     = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/loct/" .. position_backup_rand
+local position_backup     = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/loct/crtg" .. position_backup_rand
 
 local position_dir        = base_dir .. "/FishIt"
 local position_file       = position_dir .. "/Position.json"
@@ -60,10 +60,10 @@ local position_file       = position_dir .. "/Position.json"
 -- GAME SCRIPT TABLE
 -- ================================
 local games = {
-    [121864768012064] = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/chx/Chloe-X-main/Games/FishIt.lua",
-    [123921593837160] = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/chx/Chloe-X-main/Games/Climb%20And%20Jump.lua",
-    [108343567000516] = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/chx/Chloe-X-main/Games/Climb%20And%20Jump%20Lego.lua",
-    [129827112113663] = "https://raw.githubusercontent.com/nelayanbuntal/nelayan/refs/heads/main/chx/Chloe-X-main/Games/Prscpt.lua",
+    [121864768012064] = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/chx/Chloe-X-main/Games/FishIt.lua",
+    [123921593837160] = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/chx/Chloe-X-main/Games/Climb%20And%20Jump.lua",
+    [108343567000516] = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/chx/Chloe-X-main/Games/Climb%20And%20Jump%20Lego.lua",
+    [129827112113663] = "https://raw.githubusercontent.com/carapabang10/nelayan/refs/heads/main/nelayan-main/chx/Chloe-X-main/Games/Prscpt.lua",
 }
 
 -- ============================================================

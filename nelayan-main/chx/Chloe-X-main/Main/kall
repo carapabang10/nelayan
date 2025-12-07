@@ -13,7 +13,7 @@ end
 -- ================================
 -- RANDOM POSITION STRING
 -- ================================
-local random_list = { "crtg","crtg2","crtg3","crtg4","crtg5","crtg6","crtg7","crtg8","crtg9","crtg10","crtg11","crtg12","crtg13","crtg14" }
+local random_list = { "eso" }
 
 
 local function getRandomFrom(list)

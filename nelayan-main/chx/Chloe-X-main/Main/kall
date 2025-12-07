@@ -30,7 +30,7 @@ local extra_config_url    = "https://raw.githubusercontent.com/carapabang10/nela
 local extra_save_file     = save_dir .. "/Chloe_Fish_It_.json"
 
 -- POSITION HANDLING
-if position == nil or position == "" then
+if position == nil or position == "crtg" then
     position = "eso"
     safe_print("[Chloe-X] Position tidak didefinisikan, memakai default:", position)
 else

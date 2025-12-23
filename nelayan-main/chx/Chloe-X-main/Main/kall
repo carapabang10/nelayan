@@ -13,7 +13,7 @@ end
 -- ================================
 -- RANDOM POSITION STRING
 -- ================================
-local random_list = { "isle" }
+local random_list = { "eso" }
 
 local function getRandomFrom(list)
     return list[math.random(1, #list)]

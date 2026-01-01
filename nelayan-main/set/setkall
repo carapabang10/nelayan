@@ -46,7 +46,6 @@
   ],
   "Input_Webhook URL": "https://discord.com/api/webhooks/1456307208726778026/TyceUafuc4D4UxanCaXJrrva8Za6CEX817FFkAmENuAucWlcCDpdjWuUXdzmbUWXHEPp",
   "Dropdown_Rarity": [
-    "Mythic",
     "Secret"
   ],
   "Toggle_Auto Deep Sea Quest": false,
